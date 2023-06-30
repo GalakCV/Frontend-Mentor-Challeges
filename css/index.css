@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    background-image:url(bg-pattern-desktop.svg)
+  }
+  
+  .container {
+    height: 540px;
+    width: 1000px;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  .user-text {
+    float: left; 
+    width: 50%; 
+    margin-top: 30px;
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  #laddypic {
+    float: right; 
+    width: 500px; 
+    height: 600px; 
+  }
+.title-text{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+
+.user-input{
+    margin-top: 20px;
+}
+
+input{
+    padding: 18px;
+    font-size: 17px;
+    outline: 0;
+    border: 2px solid rgb(255, 94, 0);
+    border-radius: 10px;
+}
+
+button{
+    padding: 17px;
+    width: 90px;
+    margin: 20px;
+    border-radius: 20px;
+    outline: 0;
+    cursor: pointer;
+    background: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+    border: 0;
+    margin-left: 2px;
+}
+
+button:hover{
+    background: linear-gradient(to right, #ffc3a0 0%, #be7480 100%);
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+}
+
